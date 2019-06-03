@@ -1,3 +1,6 @@
+//Time Complexity O(nlogn) because of the Sorting Mechanism
+//Space Complexity O(1)
+
 function twoNumberSum(array, targetSum) {
   let left = 0;
   let right = array.length - 1;
